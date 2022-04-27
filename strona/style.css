@@ -1,0 +1,16 @@
+body {background-color: rgb(210, 228, 240);}
+div > p {color: darkblue; font-size: larger; font-family: Arial, Helvetica, sans-serif; padding-left: 5px; padding-right: 5px;}
+div.main {border: 1px solid black; width: 800px; margin: auto; background-image: url('paint.png'); background-repeat: no-repeat; height: 100px; background-position-y: center; background-position-x: 20px; background-color: white;}
+p.main {color: green; text-align: center; font-size: 30px; font-weight: bold;  vertical-align: center;}
+table {width: 800px; padding-top: 10px;}
+td {text-align: center; font-size: 20px; color: green; font-weight: bold}
+div.body {border: 1px solid black; width: 800px; margin: auto; background-color: white;}
+div.gray {background-color: rgb(226, 231, 236);}
+p.red {text-indent: 2em;}
+p.red::first-letter{color:red}
+p.green {text-indent: 2em;}
+p.green::first-letter{color:green}
+span.spanred {color: red}
+a {font-family: Arial, Helvetica, sans-serif;}
+a:link, a:visited {color: green; text-decoration: none;}
+a:hover {background-color: beige;}
